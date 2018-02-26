@@ -67,7 +67,12 @@ input {
 .shopping-list-form--submit:hover {
   background: #aaa;
   cursor: pointer;
-  background: #E35C48;
+  background-color: #E35C48;
+}
+
+.shopping-list-form--submit:disabled {
+  background-color: #d3d3d3;
+  cursor: auto;
 }
 
 .shopping-list {
